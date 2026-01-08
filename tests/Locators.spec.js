@@ -23,4 +23,4 @@ console.log("CHECKING SEMWAL LOGOUT IS WORKInG OR NOT", logout);
     await expect(logout).toBeVisible();
 
   await page.close();
-});
+});   
