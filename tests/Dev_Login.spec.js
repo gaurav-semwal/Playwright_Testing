@@ -16,4 +16,4 @@ test("test", async ({ page }) => {
   const page1 = await page1Promise;
   await page1.getByRole("link", { name: "System Admin" }).click();
   await page1.getByRole("link", { name: "Logout" }).click();
-});
+}); 
